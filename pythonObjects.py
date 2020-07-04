@@ -6,6 +6,17 @@ sum10 = 10
 _10sum = 10
 # syn$ = 100  # bad practise
 
-print(num)
+# print(num)
+# print(type(num), id(num))
 
-print(type(num), id(num))
+# Same ID's because some memory assign to both
+n1 = "Jonh"
+print(type(n1), id(n1))
+
+n2 = "Jonh"
+print(type(n2), id(n2))
+
+x = 100
+y = 100
+
+print(id(x), id(y))
